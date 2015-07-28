@@ -1,0 +1,17 @@
+# coding: utf-8
+
+from __future__ import absolute_import, division, print_function
+
+config = {
+    "SLACK_SUB_DOMAIN": "tokyokit",
+    "WEBHOOK_TOKEN": {
+        # channel名をキーにして格納
+        "general": "xxxxxxxxx/xxxxxxxxx/xxxxxxxxxxxxxxxxxxxxxxxx",
+    },
+    "TWITTER_OAUTH": {
+        "client_key": "",
+        "client_secret":"",
+        "application_token":"",
+        "application_secret":"",
+    },
+}

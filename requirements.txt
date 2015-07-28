@@ -1,0 +1,8 @@
+werkzeug
+Flask
+requests
+pytz
+requests_oauthlib
+
+pytest
+mock

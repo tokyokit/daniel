@@ -1,0 +1,11 @@
+cron:
+- description: run scheduled post
+  url: /jihou
+  schedule: every 1 minutes from 9:30 to 19:30
+  timezone: Asia/Tokyo
+
+### Review Checker
+#- description: Review Checker for XXXX
+#  url: /app_review/general/12345
+#  schedule: every 30 minutes
+#  timezone: Asia/Tokyo

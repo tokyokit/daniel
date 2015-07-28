@@ -1,3 +1,10 @@
+# Daniel
+app.yaml
+cron.yaml
+
+
+##------------
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -55,3 +62,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Mac
+.DS_Store
+

@@ -1,0 +1,23 @@
+application: slack-bot-daniel
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+
+- url: /static
+  static_dir: static
+
+- url: /jihou
+  script: src.scheduled.app
+  login: admin
+
+- url: /app_review/.*
+  script: src.scheduled.app
+
+- url: /qiita
+  script: src.qiita.app
+
+- url: .*  # This regex directs all routes to main.app
+  script: src.main.app
